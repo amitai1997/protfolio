@@ -1,0 +1,94 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Mem0.ai",
+  "favicon": "/logo/favicon.png",
+  "colors": {
+    "primary": "#3B2FC9",
+    "light": "#6673FF",
+    "dark": "#3B2FC9",
+    "background": {
+      "dark": "#0f1117",
+      "light": "#fff"
+    }
+  },
+  "logo": {
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg",
+    "href": "https://github.com/embedchain/embedchain"
+  },
+  "tabs": [
+    {
+      "name": "💡 Examples",
+      "url": "examples"
+    },
+    {
+      "name": "🖥️  Platform",
+      "url": "platform"
+    }
+  ],
+  "topbarLinks": [
+    {
+      "name": "Support",
+      "url": "mailto:founders@mem0.ai"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Slack",
+      "icon": "slack",
+      "url": "https://mem0.ai/slack/"
+    },
+    {
+      "name": "Discord",
+      "icon": "discord",
+      "url": "https://mem0.ai/discord/"
+    },
+    {
+      "name": "Talk to founders",
+      "icon": "calendar",
+      "url": "https://cal.com/taranjeetio/meet"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Get Started",
+      "pages": [
+        "overview",
+        "quickstart"
+      ]
+    },
+    {
+      "group": "LLMs",
+      "pages": [
+        "llms"
+      ]
+    },
+    {
+      "group": "Integrations",
+      "pages": [
+        "integrations/multion"
+      ]
+    },
+    {
+      "group": "💡 Examples",
+      "pages": [
+        "examples/overview",
+        "examples/personal-ai-tutor",
+        "examples/customer-support-agent",
+        "examples/personal-travel-assistant"
+      ]
+    },
+    {
+      "group": "🖥️  Platform",
+      "pages": [
+        "platform/overview",
+        "platform/quickstart"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "x": "https://x.com/mem0ai",
+    "github": "https://github.com/mem0ai/mem0",
+    "linkedin": "https://www.linkedin.com/company/mem0/"
+  }
+}
